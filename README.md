@@ -1,2 +1,29 @@
-# Python-beginner-projects
-A collection of Python projects developed to strengthen my programming skills, problem-solving abilities, and practical knowledge. This repository includes beginner-to-intermediate projects covering Python fundamentals, functions, loops, OOP, file handling, and real-world applications.
+print("Welcome to Python Calculator")
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+print("1. Addition")
+print("2. Subtraction")
+print("3. Multiplication")
+print("4. Division")
+
+choice = input("Choose operation: ")
+
+if choice == "1":
+    print("Result:", num1 + num2)
+
+elif choice == "2":
+    print("Result:", num1 - num2)
+
+elif choice == "3":
+    print("Result:", num1 * num2)
+
+elif choice == "4":
+    if num2 != 0:
+        print("Result:", num1 / num2)
+    else:
+        print("Cannot divide by zero")
+
+else:
+    print("Invalid choice")
