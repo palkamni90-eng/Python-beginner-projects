@@ -1,29 +1,20 @@
-print("Welcome to Python Calculator")
+# Python Beginner Projects
 
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
+## About
+A collection of Python projects developed to
+strengthen my programming skills, problem-solving
+abilities, and practical knowledge.
 
-print("1. Addition")
-print("2. Subtraction")
-print("3. Multiplication")
-print("4. Division")
+## Skills
+- Python Fundamentals
+- Loops and Functions
+- Object-Oriented Programming
+- File Handling
+- Problem Solving
 
-choice = input("Choose operation: ")
+## Projects
+1. Python Calculator
 
-if choice == "1":
-    print("Result:", num1 + num2)
-
-elif choice == "2":
-    print("Result:", num1 - num2)
-
-elif choice == "3":
-    print("Result:", num1 * num2)
-
-elif choice == "4":
-    if num2 != 0:
-        print("Result:", num1 / num2)
-    else:
-        print("Cannot divide by zero")
-
-else:
-    print("Invalid choice")
+## About Me
+Aspiring Python Developer | Learning by building
+real-world Python projects.
